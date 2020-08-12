@@ -1,4 +1,4 @@
-# Speech_Recognition_System
+# Speech Recognition System
 
 To clone this repo, please execute:
 ```
@@ -32,7 +32,7 @@ run
 ```
 python3 train.py
 ```
-to train the speech recognition model.
+to execute data-preprocessing and  train the speech recognition model.
 
 ### III. Predict
 run
