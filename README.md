@@ -13,8 +13,6 @@ git clone https://github.com/tsaishien-chen/Speech_Recognition_System.git
 ** to download the dataset, run
 ```
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1seJQJ9amLVaTUB-uXB1Jq0ob0cbuSDTJ' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1seJQJ9amLVaTUB-uXB1Jq0ob0cbuSDTJ" -O data.zip && rm -rf /tmp/cookies.txt
-
-wget --no-check-certificate https://drive.google.com/uc?export=download&id=
 unzip data.zip
 ```
 * `example_wav/` : an example wav file from each command word
