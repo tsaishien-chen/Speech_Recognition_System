@@ -20,22 +20,19 @@ unzip data.zip
     
 ## Execute
 
-### I. Visualize
-run
+1. Visualize
 ```
 python3 visualizer.py example_wav/yes.wav
 ```
 to visualize the specific wav file.
 
-### II. Train
-run
+2. Train
 ```
 python3 train.py
 ```
 to execute data-preprocessing and  train the speech recognition model.
 
-### III. Predict
-run
+3. Predict
 ```
 python3 predict.py example_wav/yes.wav
 ```
